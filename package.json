@@ -7,7 +7,8 @@
     "person": "tsc Typescript/*.ts --target es5 && node Typescript/personTest.js",
     "contact":"tsc Typescript/*.ts --target es5 && node Typescript/contacsTest.js",
     "book":"tsc Typescript/*.ts --target es5 && node Typescript/bookTest.js",
-    "library":"tsc Typescript/*.ts --target es5 && node Typescript/libraryTest.js"
+    "library":"tsc Typescript/*.ts --target es5 && node Typescript/libraryTest.js",
+    "vector":"tsc Typescript/*.ts --target es5 && node Typescript/vectorTest.js"
   },
   "author": "",
   "license": "ISC",
