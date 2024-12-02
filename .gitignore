@@ -1,0 +1,6 @@
+# Ignorar los ficheros .js de la carpeta Typescript
+/Typescript/*.js
+
+# Ignorar node_modules
+node_modules/
+

@@ -4,8 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "person": "tsc Typescript/*.ts --target es5 && node Typescript/personTest.js",
+    "contact":"tsc Typescript/*.ts --target es5 && node Typescript/contacsTest.js",
+    "book":"tsc Typescript/*.ts --target es5 && node Typescript/bookTest.js",
+    "library":"tsc Typescript/*.ts --target es5 && node Typescript/libraryTest.js",
+    "vector":"tsc Typescript/*.ts --target es5 && node Typescript/vectorTest.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
 }
